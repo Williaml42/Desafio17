@@ -1,0 +1,33 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #d9dbdb;
+}
+
+.conteiner{
+    display: flex;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.box{
+    background-color: #e6e6e6;
+    padding: 15px;
+    margin: 5px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .conteiner{
+        margin: 0px;
+        width: auto;
+        display: block;
+    }
+
+    .box{
+        width: auto;
+    }
+}
